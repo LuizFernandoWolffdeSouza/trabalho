@@ -5,12 +5,12 @@ const species = new Schema({
     name : {
         type: String,
         required: true
-    },
+    },  
     discoverylocation: {
         type: String,
         required: true
     },
-    rarity: {
+    rarity: {   
         type: Number,
         required: true
     },

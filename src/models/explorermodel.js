@@ -10,7 +10,7 @@ const explorer = new Schema ({
     fieldofstudy : {
         type:String,
         required: true
-    },
+    },  
     Expeditionsparticepted: {
         type: Number,
         required: true

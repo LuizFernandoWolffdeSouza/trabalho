@@ -13,7 +13,7 @@ import expeditionmodel from "../models/expeditionmodel.js";
 export async function index(req,res) {
     try {
         const expediction = await expeditionmodel.find() .exec()
-        res.status(200).json({mensagem:"Listado com sucesso"})
+        res.status(200).json({mensagem:"Listado com sucesso" ,expediction})
     }
     catch(error){
         res.status(400).json({mensagem:  error.mensagem})
